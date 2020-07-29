@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Frame } from 'frame';
 
+/**
+ * Comment
+ */
 const Filter = ({text}) => {
     const [filterState, setFilterState] = useState({
         buttonDisabled: true,
