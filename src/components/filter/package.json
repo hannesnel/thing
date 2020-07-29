@@ -9,6 +9,9 @@
   "dependencies": {
     "frame": "frame@workspace:/src/components/frame"
   },
+  "peerDependencies": {
+    "frame": "frame@workspace:/src/components/frame"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
