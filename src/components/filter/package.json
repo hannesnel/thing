@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "filter",
   "version": "1.0.7",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "frame": "frame@workspace:/src/components/frame"
-  },
-  "peerDependencies": {
-    "frame": "frame@workspace:/src/components/frame"
+    "frame": "^1.0.0"
   },
   "keywords": [],
   "author": "",

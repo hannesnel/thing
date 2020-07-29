@@ -23,7 +23,7 @@ const Filter = ({text}) => {
 
     return (
         <Frame>
-            <input className='inline button noborder' type="text" onChange={handleFilterChange} value={filterState.filterText} />
+            <input className='inline button' type="text" onChange={handleFilterChange} value={filterState.filterText} />
             <button disabled={filterState.buttonDisabled}>Filter</button>
         </Frame>
     );
