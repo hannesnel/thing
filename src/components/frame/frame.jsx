@@ -2,7 +2,7 @@ import React from 'react';
 
 const Frame = ({children}) => {
     return (
-        <div className='frame'>
+        <div className='frame noborder'>
             {children}
         </div>
     );

@@ -23,7 +23,7 @@ const Filter = ({text}) => {
 
     return (
         <Frame>
-            <input type="text" onChange={handleFilterChange} value={filterState.filterText} />
+            <input className='dummyClass' type="text" onChange={handleFilterChange} value={filterState.filterText} />
             <button disabled={filterState.buttonDisabled}>Filter</button>
         </Frame>
     );

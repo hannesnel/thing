@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@demo/button",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "frame": "frame@workspace:/src/components/frame"
+    "@demo/frame": "frame@workspace:/src/components/frame"
   },
   "keywords": [],
   "author": "",
