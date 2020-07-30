@@ -26,7 +26,7 @@ const Filter = ({text, placeholderText}) => {
 
     return (
         <Frame>
-            <input className='inline button' type="text" onChange={handleFilterChange} placeholder={placeholder} value={filterState.filterText} />
+            <input className='inline' type="text" onChange={handleFilterChange} placeholder={placeholder} value={filterState.filterText} />
             <button disabled={filterState.buttonDisabled}>Filter</button>
         </Frame>
     );
