@@ -4,7 +4,7 @@ import { Frame } from 'frame';
 /**
  * Comment
  */
-const Filter = ({text}) => {
+const Filter = ({text, placeholderText}) => {
     const [filterState, setFilterState] = useState({
         buttonDisabled: true,
         filterText: ''
@@ -26,7 +26,7 @@ const Filter = ({text}) => {
 
     return (
         <Frame>
-            <input className='inline button' type="text" onChange={handleFilterChange} value={filterState.filterText} />
+            <input className='inline button' type="text" onChange={handleFilterChange} placeholder={placeholder} value={filterState.filterText} />
             <button disabled={filterState.buttonDisabled}>Filter</button>
         </Frame>
     );
